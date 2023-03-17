@@ -1,9 +1,6 @@
 # cilindro-magnetizado
 Proyecto cilindro magnetizado
 
-# cilindro-magnetizado
-Proyecto cilindro magnetizado
-
 ## Comenzando
 ### Prerequisitos
 
