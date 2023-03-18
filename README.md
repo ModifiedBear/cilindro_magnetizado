@@ -1,4 +1,4 @@
-# cilindro-magnetizado
+# cilindro_magnetizado
 Proyecto cilindro magnetizado
 
 ## Comenzando
@@ -29,7 +29,7 @@ pkg> precompile
 ```
 Para salir del Pkg REPL, presionar `backspace`. Si todo se encuentra en orden, se debería poder correr cualquier función dentro del proyecto o módulo de la manera siguiente:
 ```julia
-julia> include("./src/cilindro.jl")
+julia> include("./src/cilindro_magnetizado.jl")
 julia> <función del proyecto>
 ```
 
