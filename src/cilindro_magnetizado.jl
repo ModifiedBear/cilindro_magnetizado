@@ -1,5 +1,5 @@
 module cilindro_magnetizado
-# Obtains 
+export potential_in, potential_out
 
 using LegendrePolynomials
 #using RedefStructs
@@ -44,17 +44,17 @@ function PLsmout(r::Float64,θ::Float64,n::Int64,
       Pl(cos(θ),l)*(1/(r^l))*( (R^2+L^2)/((2*l+3)*r) - r/(2*l-1) )
   end
   
+  
   return s
 end
 
-function in()
+function potential_in()
   # get expansion for inside radius
+  
+  # Constants
   μ₀ = 4π*1E-07;
-  
   M = 1.0*1E+04;
-  
   R = 0.01;
-  
   L = 0.02;
   
   parts = 101; #Domain's sub-parts
@@ -76,9 +76,10 @@ function in()
   return [PLsmin( r,θ,20,μ₀,M,L,R) for r in rin,  θ in θ];
 end
 
-function out()
+function potential_out()
+  # get expansion for outside radius
 
-  # constants
+  # Constants
   μ₀ = 4π*1E-07;
   M = 1.0*1E+04;
   R = 0.01;
