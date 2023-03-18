@@ -5,5 +5,7 @@ version = "0.1.0"
 
 [deps]
 CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+GLMakie = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"
 LegendrePolynomials = "3db4a2ba-fc88-11e8-3e01-49c72059a882"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+RedefStructs = "91f8d46f-6a72-421b-a56e-b73459bd5e0a"
