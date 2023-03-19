@@ -18,7 +18,7 @@ Abrir una Terminal en Mac/Linux o *PowerShell* en Windows.
 
 Entrar al folder de instalación y correr Julia indicando el proyecto actual.
 ```sh
-$ cd cilindro-magnetizado
+$ cd cilindro_magnetizado
 $ julia --project=.
 ```
 En el REPL de Julia, entrar al Pkg REPL con `]` y correr los siguientes comandos:
